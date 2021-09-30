@@ -90,16 +90,19 @@ function App() {
                 title="Cases Today:"
                 cases={countryInfo.todayCases}
                 total={countryInfo.cases}
+                color = "red"
               />
               <InfoBox
                 title="Recovered Today:"
                 cases={countryInfo.todayRecovered}
                 total={countryInfo.recovered}
+                color="lightgreen"
               />
               <InfoBox
                 title="Deaths today:"
                 cases={countryInfo.todayDeaths}
                 total={countryInfo.deaths}
+                color="red"
               />
             </div>
             <Map countries={mapCountries} center={mapCenter} zoom={mapZoom} />

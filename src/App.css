@@ -20,14 +20,14 @@
   justify-content: space-between;
 }
 .body {
-  background-color: gray;
+  background-color: lightblue;
 }
 .app_left {
   flex: 0.8;
 }
 .App {
   overflow-x: hidden;
-  background-color: gray;
+  background-color: lightblue;
 }
 
 @media (max-width: 990px) {

@@ -4,15 +4,15 @@ import numeral from "numeral";
 const casesTypeColors = {
   cases: {
     hex: "#CC1034",
-    multiplier: 800,
+    multiplier: 300,
   },
   recoveres: {
     hex: "#7dd71d",
-    multiplier: 1200,
+    multiplier: 600,
   },
   deaths: {
     hex: "#fb4443",
-    multiplier: 2000,
+    multiplier: 1000,
   },
 };
 export const sortData = (data) => {
